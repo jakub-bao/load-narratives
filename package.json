@@ -1,0 +1,19 @@
+{
+  "name": "get_narratives",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.699.0",
+    "@aws-sdk/types": "^3.696.0",
+    "@aws-sdk/util-dynamodb": "^3.699.0",
+    "@types/node": "^22.10.0"
+  },
+  "type": "module"
+}
