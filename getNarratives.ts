@@ -42,7 +42,7 @@ while (key){
     key = k
     result = result.concat(items)
 }
-await writeFile('output.json', JSON.stringify(result, null, 4), 'utf8')
+await writeFile('narratives.json', JSON.stringify(result, null, 4), 'utf8')
 console.log(result.length)
 
 
